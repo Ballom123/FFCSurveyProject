@@ -1,0 +1,49 @@
+body {
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    width: 100%;
+
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+
+h1, p[id="description"] {
+    margin: auto;
+    text-align: center;
+}
+
+p[id="description"] {
+    font-style: italic; 
+}
+
+
+fieldset{
+    border: none;
+}
+
+label {
+    display: block;
+    margin: auto;
+}
+
+input, textarea, select {
+    width: 100%;
+}
+
+.inline {
+    width: unset;
+    vertical-align: top;
+    margin: 4px 0.5em 0 0;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 70%;
+    margin: 1em auto;
+    
+}
